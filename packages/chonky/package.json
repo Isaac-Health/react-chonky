@@ -51,7 +51,7 @@
     "format-check": "prettier --config ../../.prettierrc.js --ignore-path ../../.prettierignore --check ."
   },
   "peerDependencies": {
-    "react": ">=16"
+    "react": ">=18"
   },
   "husky": {
     "hooks": {
@@ -88,13 +88,13 @@
     "react-is": "^18.2.0",
     "size-limit": "^11.0.2",
     "tslib": "^2.6.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "yarn-audit-fix": "^10.1.0"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.15.10",
-    "@mui/styles": "^5.15.10",
     "@reduxjs/toolkit": "^2.2.1",
     "@types/classnames": "^2.2.11",
     "@types/fuzzy-search": "^2.1.5",
