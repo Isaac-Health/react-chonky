@@ -1,4 +1,7 @@
-import { GenericFileActionHandler, MapFileActionsToData } from './types/action-handler.types';
+import {
+    GenericFileActionHandler,
+    MapFileActionsToData,
+} from './types/action-handler.types';
 import { ChonkyActionUnion } from './types/file-browser.types';
 
 export { FileBrowser } from './components/external/FileBrowser';
@@ -17,17 +20,17 @@ export { makeGlobalChonkyStyles, ChonkyTheme } from './util/styles';
 
 export { FileData, FileArray } from './types/file.types';
 export {
-  FileAction,
-  FileActionEffect,
-  FileSelectionTransform,
-  FileActionButton,
-  CustomVisibilityState,
+    FileAction,
+    FileActionEffect,
+    FileSelectionTransform,
+    FileActionButton,
+    CustomVisibilityState,
 } from './types/action.types';
 export {
-  GenericFileActionHandler,
-  MapFileActionsToData,
-  FileActionData,
-  FileActionState,
+    GenericFileActionHandler,
+    MapFileActionsToData,
+    FileActionData,
+    FileActionState,
 } from './types/action-handler.types';
 export { ChonkyActionUnion } from './types/file-browser.types';
 export { ChonkyIconName } from './types/icons.types';
@@ -40,11 +43,18 @@ export type FileViewConfigList = import('./types/file-view.types').FileViewConfi
 export { ThumbnailGenerator } from './types/thumbnails.types';
 
 export { I18nConfig, ChonkyFormatters } from './types/i18n.types';
-export { defaultFormatters, getI18nId, getActionI18nId, I18nNamespace } from './util/i18n';
+export {
+    defaultFormatters,
+    getI18nId,
+    getActionI18nId,
+    I18nNamespace,
+} from './util/i18n';
 
 export { setChonkyDefaults } from './util/default-config';
 
 export { ChonkyDndFileEntryType } from './types/dnd.types';
+export { OpenFilesPayload } from './types/action-payloads.types';
+
 export type ChonkyDndFileEntryItem = import('./types/dnd.types').ChonkyDndFileEntryItem;
 
 export type FileActionHandler = GenericFileActionHandler<ChonkyActionUnion>;
@@ -57,4 +67,7 @@ export * from './extensions';
 export * from './redux/reducers';
 export * from './redux/store';
 export * from './redux/selectors';
-export { thunkDispatchFileAction, thunkRequestFileAction } from './redux/thunks/dispatchers.thunks';
+export {
+    thunkDispatchFileAction,
+    thunkRequestFileAction,
+} from './redux/thunks/dispatchers.thunks';

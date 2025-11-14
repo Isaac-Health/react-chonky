@@ -1,6 +1,6 @@
 {
-  "name": "@aperturerobotics/chonky",
-  "version": "0.3.0",
+  "name": "@isaachealth/chonky",
+  "version": "0.5.3",
   "description": "A File Browser component for React",
   "license": "MIT",
   "homepage": "https://chonky.io/",
@@ -26,13 +26,6 @@
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "module": "./dist/chonky.esm.js",
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
-    }
-  },
   "files": [
     "dist",
     "src"
